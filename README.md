@@ -37,6 +37,7 @@ conn.send(message.encode())
 conn.close()
 
 #Server output:
+
 PS C:\Users\acer\OneDrive\Attachments>  & 'c:\Users\acer\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\acer\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\libs\debugpy\launcher' '59039' '--' 'C:\Users\acer\OneDrive\Attachments\echo server.py' 
 
 Server is waiting for connection...
@@ -70,6 +71,7 @@ print("Echo from server:", echo)
 client_socket.close()
 
 #Client output:
+
 PS C:\Users\acer\OneDrive\Attachments>  & 'c:\Users\acer\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\acer\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\libs\debugpy\launcher' '59073' '--' 'C:\Users\acer\OneDrive\Attachments\echo client.py' 
 
 Enter message: Good morning
