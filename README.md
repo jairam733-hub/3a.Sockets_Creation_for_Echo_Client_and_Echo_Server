@@ -10,6 +10,7 @@ Sockets Links.
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
 #Server program:
+```
 import socket
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -69,6 +70,7 @@ echo = client_socket.recv(1024).decode()
 print("Echo from server:", echo)
 
 client_socket.close()
+```
 
 #Client output:
 
